@@ -5,7 +5,9 @@ body {
     justify-content:center ;
     align-items: center;
     overflow: auto ;
-    
+     -ms-overflow-style: scrollbar; /* for Internet Explorer */
+    scrollbar-width: thin; /* for Firefox */
+    scrollbar-color: #999999 #f5f5f5; /*for Firefox*/
 }
 
 
