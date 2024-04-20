@@ -82,3 +82,7 @@ div.img-desc p.desc{
   z-index: 9999;
   /* overflow: hidden; */ /* Remove or comment out this line */
 }
+
+.overlay.open {
+  overflow: auto;
+}
